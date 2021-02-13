@@ -178,3 +178,33 @@ h2 {
   background-size: cover;
   height: 375px;
 }
+#services {
+  color: rgb(0, 0, 0);
+}
+.services-img {
+  width: 375px;
+  height: 277px;
+  background-image: url(./planting-flowerbeds.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.services-img-header {
+  background-color: rgba(255, 255, 255, 0.473);
+  width: 267px;
+  margin: auto;
+
+  position: relative;
+  top: 85px;
+}
+#services ul {
+  padding-top: 45px;
+}
+#services ul li {
+  font-size: 20px;
+  margin: 10px;
+}
+.services-list {
+  width: 375px;
+  height: 277px;
+}
