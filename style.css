@@ -35,11 +35,14 @@ header {
 }
 
 /* MENU MENU MENU */
-
+nav {
+  position: relative;
+  bottom: -0px;
+}
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.705);
+  background-color: rgba(0, 0, 0, 0.288);
   position: relative;
   bottom: 0px;
 }
@@ -47,6 +50,10 @@ header {
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
+  background-color: rgba(0, 0, 0, 0.849);
+  position: relative;
+  top: -2px;
+  padding: 5px;
 }
 
 /* Style navigation menu links */
@@ -54,7 +61,7 @@ header {
   color: white;
   padding: 0px 0px 0px 0px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
   display: block;
 }
 
