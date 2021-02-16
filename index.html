@@ -1,191 +1,223 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script
-        src="https://kit.fontawesome.com/0135db50df.js"
-        crossorigin="anonymous"
-        ></script>
-        <script>
-        function myFunction() {
-            var x = document.getElementById("myLinks");
-            if (x.style.display === "block") {
-            x.style.display = "none";
-            } else {
-            x.style.display = "block";
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <script
+            src="https://kit.fontawesome.com/0135db50df.js"
+            crossorigin="anonymous"
+            ></script>
+            <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                x.style.display = "none";
+                } else {
+                x.style.display = "block";
+                }
             }
-        }
-        </script>
-        <link rel="stylesheet" href="style.css" />
+            </script>
+            <link rel="stylesheet" href="style.css" />
 
-        <title>Ben Simpson Garden Services</title>
-    </head>
-    <body>
-        <div id="wrapper">
-        <header>
-            <div id="circle-logo">
-            <img src="./logodirty.png" alt="logo" />
+            <title>Ben Simpson Garden Services</title>
+        </head>
+        <body>
+            <div id="wrapper">
+            <header>
+                <div id="circle-logo">
+                <img src="./logodirty.png" alt="logo" />
+                </div>
+                <nav>
+                <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+                <link
+                    rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+                />
+
+                <!-- Top Navigation Menu -->
+                <div class="topnav">
+                    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                    <a href="javascript:void(0);" class="active" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                    </a>
+                    <!-- <a href="#home" class="active">Home</a> -->
+                    <!-- Navigation links (hidden by default) -->
+                    <div id="myLinks">
+                    <a href="#news">About</a>
+                    <a href="#contact">Services</a>
+                    <a href="#about">Projects</a>
+                    <a href="#about">Book Now</a>
+                    </div>
+                </div>
+                </nav>
+            </header>
+            <section class="book-now">
+                <div id="book-box">
+                <h1>LET ME MAKE YOUR GARDEN</h1>
+                <h2>
+                    TO BE YOUR ZEN,<br />
+                    NOT JUST A <br />
+                    GARDEN
+                </h2>
+                <a href="https://m.me/SimpsonGardenServices" class="fab fa-facebook-messenger" target="blank"></a>
+                <a
+                    href="https://wa.me/+447710972656"
+                    class="fab fa-whatsapp"
+                    target="blank"
+                ></a>
+                <a href="mailto:webmaster@example.com"" class="fas fa-at" target="blank"></a>
+                <a href="tel:+447710972656" class="mobile">07710972656</a>
+                </div>
+            </section>
             </div>
-            <nav>
-            <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-            <link
-                rel="stylesheet"
-                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-            />
+            <section id="about">
+                <article>
+                    <h2>ABOUT ME</h2>
+                    <p>Lorizzle stuff crazy sizzle amizzle, you son of a bizzle adipiscing elit. Nullizzle sapizzle velizzle, the bizzle
+                    volutpat, suscipit yippiyo, gravida vizzle, arcu. Pellentesque tellivizzle mah nizzle. Sizzle erizzle. Shiz izzle dolor
+                    dapibizzle you son of a bizzle ghetto bling bling. Shizzlin dizzle get down get down nibh et Lorizzle stuff crazy sizzle amizzle, you son of a bizzle adipiscing elit. Nullizzle sapizzle velizzle, the bizzle
+                    volutpat, suscipit yippiyo, gravida vizzle, arcu. Pellentesque tellivizzle mah nizzle.</p>
+                    <div class="photo"></div>
+                </article>
+            </section>
+            
+            
+            <section id="services">
 
-            <!-- Top Navigation Menu -->
-            <div class="topnav">
-                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-                <a href="javascript:void(0);" class="active" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-                </a>
-                <!-- <a href="#home" class="active">Home</a> -->
-                <!-- Navigation links (hidden by default) -->
-                <div id="myLinks">
-                <a href="#news">About</a>
-                <a href="#contact">Services</a>
-                <a href="#about">Projects</a>
-                <a href="#about">Book Now</a>
-                </div>
-            </div>
-            </nav>
-        </header>
-        <section class="book-now">
-            <div id="book-box">
-            <h1>LET ME MAKE YOUR GARDEN</h1>
-            <h2>
-                TO BE YOUR ZEN,<br />
-                NOT JUST A <br />
-                GARDEN
-            </h2>
-            <a href="https://m.me/SimpsonGardenServices" class="fab fa-facebook-messenger" target="blank"></a>
-            <a
-                href="https://wa.me/+447710972656"
-                class="fab fa-whatsapp"
-                target="blank"
-            ></a>
-            <a href="mailto:webmaster@example.com"" class="fas fa-at" target="blank"></a>
-            <a href="tel:+447710972656" class="mobile">07710972656</a>
-            </div>
-        </section>
-        </div>
-        <section id="about">
-            <article>
-                <h2>ABOUT ME</h2>
-                <p>Lorizzle stuff crazy sizzle amizzle, you son of a bizzle adipiscing elit. Nullizzle sapizzle velizzle, the bizzle
-                volutpat, suscipit yippiyo, gravida vizzle, arcu. Pellentesque tellivizzle mah nizzle. Sizzle erizzle. Shiz izzle dolor
-                dapibizzle you son of a bizzle ghetto bling bling. Shizzlin dizzle get down get down nibh et Lorizzle stuff crazy sizzle amizzle, you son of a bizzle adipiscing elit. Nullizzle sapizzle velizzle, the bizzle
-                volutpat, suscipit yippiyo, gravida vizzle, arcu. Pellentesque tellivizzle mah nizzle.</p>
-                <div class="photo"></div>
-            </article>
-        </section>
-        
-        
-        <section id="services">
+                <h2>SERVICES</h2>
 
-            <h2>SERVICES</h2>
+                <article id="planting-flowerbeds">
 
-            <article id="planting-flowerbeds">
+                    <div class="services-img">
 
-                <div class="services-img">
+                        <div class="services-img-header">
 
-                    <div class="services-img-header">
+                            <h2>PLANTING<br>AND<br> FLOWERBEDS</h2>
 
-                        <h2>PLANTING<br>AND<br> FLOWERBEDS</h2>
+                        </div>
 
                     </div>
 
-                </div>
-
-                <div class="services-list">
-                    <ul>
-                        <li>PLANTING</li>
-                        
-                        <li>BED MAINTENANCE</li>
-                        <li>MULCHING</li>
-                        <li>COMPOSTING</li>
-                        <li>TOPIARY</li>
-                    </ul>
-                </div>
-            </article>
-
-            <article id="planting-flowerbeds">
-            
-                <div class="services-img">
-            
-                    <div class="services-img-header">
-            
-                        <h2>PLANTING<br>AND<br> FLOWERBEDS</h2>
-            
+                    <div class="services-list">
+                        <ul>
+                            <li>PLANTING</li>
+                            
+                            <li>BED MAINTENANCE</li>
+                            <li>MULCHING</li>
+                            <li>COMPOSTING</li>
+                            <li>TOPIARY</li>
+                        </ul>
                     </div>
-            
-                </div>
-            
-                <div class="services-list">
-                    <ul>
-                        <li>PLANTING</li>
-            
-                        <li>BED MAINTENANCE</li>
-                        <li>MULCHING</li>
-                        <li>COMPOSTING</li>
-                        <li>TOPIARY</li>
-                    </ul>
-                </div>
-            </article>
+                </article>
 
-            <article id="planting-flowerbeds">
-            
-                <div class="services-img">
-            
-                    <div class="services-img-header">
-            
-                        <h2>PLANTING<br>AND<br> FLOWERBEDS</h2>
-            
+                <article id="planting-flowerbeds">
+                
+                    <div class="services-img">
+                
+                        <div class="services-img-header">
+                
+                            <h2>PLANTING<br>AND<br> FLOWERBEDS</h2>
+                
+                        </div>
+                
                     </div>
-            
-                </div>
-            
-                <div class="services-list">
-                    <ul>
-                        <li>PLANTING</li>
-            
-                        <li>BED MAINTENANCE</li>
-                        <li>MULCHING</li>
-                        <li>COMPOSTING</li>
-                        <li>TOPIARY</li>
-                    </ul>
-                </div>
-            </article>
-
-            <article id="planting-flowerbeds">
-            
-                <div class="services-img">
-            
-                    <div class="services-img-header">
-            
-                        <h2>PLANTING<br>AND<br> FLOWERBEDS</h2>
-            
+                
+                    <div class="services-list">
+                        <ul>
+                            <li>PLANTING</li>
+                
+                            <li>BED MAINTENANCE</li>
+                            <li>MULCHING</li>
+                            <li>COMPOSTING</li>
+                            <li>TOPIARY</li>
+                        </ul>
                     </div>
-            
-                </div>
-            
-                <div class="services-list">
-                    <ul>
-                        <li>PLANTING</li>
-            
-                        <li>BED MAINTENANCE</li>
-                        <li>MULCHING</li>
-                        <li>COMPOSTING</li>
-                        <li>TOPIARY</li>
-                    </ul>
-                </div>
-            </article>
+                </article>
 
-        </section>
+                <article id="planting-flowerbeds">
+                
+                    <div class="services-img">
+                
+                        <div class="services-img-header">
+                
+                            <h2>PLANTING<br>AND<br> FLOWERBEDS</h2>
+                
+                        </div>
+                
+                    </div>
+                
+                    <div class="services-list">
+                        <ul>
+                            <li>PLANTING</li>
+                
+                            <li>BED MAINTENANCE</li>
+                            <li>MULCHING</li>
+                            <li>COMPOSTING</li>
+                            <li>TOPIARY</li>
+                        </ul>
+                    </div>
+                </article>
 
-        <p style="color: black;">blascbjlascblsac</p>
+                <article id="planting-flowerbeds">
 
-        </div>
-    </body>
-    </html>
+                    <div class="services-img">
+
+                        <div class="services-img-header">
+
+                            <h2>PLANTING<br>AND<br> FLOWERBEDS</h2>
+
+                        </div>
+
+                    </div>
+
+                    <div class="services-list">
+                        <ul>
+                            <li>PLANTING</li>
+                            
+                            <li>BED MAINTENANCE</li>
+                            <li>MULCHING</li>
+                            <li>COMPOSTING</li>
+                            <li>TOPIARY</li>
+                        </ul>
+                    </div>
+                </article>
+
+            </section>
+
+            
+<section class="gallery">
+    <h2>GALLERY</h2>
+    <p> SWIPE TO SEE MORE PHOTOS</p>
+    <div class="slider">
+        <div class="slide" id="slide-1"></div>
+        <div class="slide" id="slide-2"></div>
+        <div class="slide" id="slide-3"></div>
+        <div class="slide" id="slide-4"></div>
+        <div class="slide" id="slide-5"></div>
+        <div class="slide" id="slide-6"></div>
+        <div class="slide" id="slide-7"></div>
+        <div class="slide" id="slide-8"></div>
+        <div class="slide" id="slide-9"></div>
+    </div>
+</section>
+            
+
+<section class="book-now2">
+    
+    <div id="book-box2">
+        <h1>LET ME MAKE YOUR GARDEN</h1>
+        <h2>
+            TO BE YOUR ZEN,<br />
+            NOT JUST A <br />
+            GARDEN
+        </h2>
+        <a href="https://m.me/SimpsonGardenServices" class="fab fa-facebook-messenger" target="blank"></a>
+        <a href="https://wa.me/+447710972656" class="fab fa-whatsapp" target="blank"></a>
+        <a href="mailto:webmaster@example.com"" class=" fas fa-at" target="blank"></a>
+        <a href="tel:+447710972656" class="mobile">07710972656</a>
+    </div>
+</section>
+
+
+        </body>
+        </html>
