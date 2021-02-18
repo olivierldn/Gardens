@@ -169,6 +169,7 @@ nav {
   font-size: 16px;
   margin-right: 30px;
   margin-left: 30px;
+  margin-bottom: 20px;
   text-align: left;
 }
 h2 {
@@ -298,9 +299,10 @@ h2 {
   background-image: url(./bike.jpg);
   background-size: cover;
   background-position: center;
+  overflow: auto;
 }
 #book-box2 {
-  margin: auto;
+  margin: 10px auto 0 auto;
   width: 357px;
   height: 465px;
   border-radius: 20px;
@@ -354,5 +356,5 @@ footer {
 }
 .h2-header {
   color: #121113;
-  padding: 5px 0 5px 0;
+  padding: 10px 0 5px 0;
 }
