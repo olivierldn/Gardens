@@ -103,23 +103,27 @@ nav {
   background: rgb(18, 17, 19);
   background: linear-gradient(
     0deg,
-    rgba(18, 17, 19, 0.589) 0%,
-    rgba(18, 17, 19, 0.979) 100%
+    rgba(255, 255, 255, 0.116) 0%,
+    rgba(18, 17, 19, 0.5) 20%,
+    rgba(18, 17, 19, 0.63) 100%
   );
 }
 #book-box h1 {
-  font-size: 21px;
-  padding-top: 75px;
-  padding-bottom: 20px;
+  font-size: 40px;
+
+  padding: 40% 10px 20px 10px;
 }
-#book-box h2 {
-  font-size: 30px;
-  padding-bottom: 80px;
+#book-box P {
+  font-size: 16px;
+  font-weight: 300;
+  color: #99eb9f83;
+  padding-bottom: 10px;
 }
-.fa-at,
+
+.fa-envelope,
 .fa-facebook-messenger {
   color: #121113;
-  background-color: #9bff70;
+  background-color: #99eb9e;
   border-radius: 40px;
   padding: 6px;
   margin-left: 8px;
@@ -131,7 +135,7 @@ nav {
 }
 .fa-whatsapp {
   color: #121113;
-  background-color: #9bff70;
+  background-color: #99eb9e;
   border-radius: 40px;
   padding: 5px;
   padding-left: 8px;
@@ -145,7 +149,7 @@ nav {
 }
 .mobile {
   color: #121113;
-  background-color: #9bff70;
+  background-color: #99eb9e;
   border-radius: 30px;
   display: block;
   margin: auto;
@@ -153,11 +157,16 @@ nav {
   width: 200px;
   padding-bottom: 3px;
   font-size: 25px;
+  font-weight: 600;
   text-align: center;
   text-decoration: none;
 }
 #wrapper {
-  background-image: url(./pexels-lukas-296230.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./pexels-brianna-martinez-3708717.jpg);
+  /* background-image: url(./pexels-karol-d-582486.jpg); */
+  /* background-color: D6FFE9; */
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
