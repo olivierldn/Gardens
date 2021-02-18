@@ -4,15 +4,16 @@
 }
 html {
   text-align: center;
-  color: white;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #f7f7f2;
+  font-family: "Work Sans", sans-serif;
   letter-spacing: 0.5px;
+  background-color: #f7f7f2;
 }
 
 header {
   height: 150px;
   padding-top: 6px;
-  background-color: rgba(0, 0, 0, 0.534);
+  background-color: rgba(34, 39, 37, 0.904);
   margin-bottom: 0px;
 }
 #circle-logo {
@@ -21,12 +22,12 @@ header {
 
   width: 125px;
   height: 125px;
-  background: rgb(0, 0, 0);
+  background: rgb(18, 17, 19);
   background: linear-gradient(
     0deg,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0.3561799719887955) 20%,
-    rgba(0, 0, 0, 1) 89%
+    rgba(18, 17, 19, 0) 0%,
+    rgba(18, 17, 19, 0.3561799719887955) 20%,
+    rgba(18, 17, 19, 1) 89%
   );
   border-radius: 50%;
 }
@@ -91,17 +92,19 @@ nav {
 .book-now {
   height: 525px;
   margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #book-box {
-  margin: auto;
-  width: 357px;
+  max-width: 300px;
   height: 465px;
   border-radius: 20px;
-  background: rgb(0, 0, 0);
+  background: rgb(18, 17, 19);
   background: linear-gradient(
     0deg,
-    rgba(0, 0, 0, 0.35) 0%,
-    rgba(0, 0, 0, 0.88) 100%
+    rgba(18, 17, 19, 0.589) 0%,
+    rgba(18, 17, 19, 0.979) 100%
   );
 }
 #book-box h1 {
@@ -115,8 +118,8 @@ nav {
 }
 .fa-at,
 .fa-facebook-messenger {
-  color: white;
-  background-color: green;
+  color: #121113;
+  background-color: #9bff70;
   border-radius: 40px;
   padding: 6px;
   margin-left: 8px;
@@ -127,8 +130,8 @@ nav {
   text-decoration: none;
 }
 .fa-whatsapp {
-  color: white;
-  background-color: green;
+  color: #121113;
+  background-color: #9bff70;
   border-radius: 40px;
   padding: 5px;
   padding-left: 8px;
@@ -141,12 +144,12 @@ nav {
   text-decoration: none;
 }
 .mobile {
-  color: white;
-  background-color: green;
+  color: #121113;
+  background-color: #9bff70;
   border-radius: 30px;
   display: block;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 20px;
   width: 200px;
   padding-bottom: 3px;
   font-size: 25px;
@@ -160,7 +163,7 @@ nav {
   background-repeat: no-repeat;
 }
 #about {
-  color: rgb(0, 0, 0);
+  color: #121113;
 }
 #about p {
   font-size: 16px;
@@ -179,7 +182,7 @@ h2 {
   height: 375px;
 }
 #services {
-  color: rgb(0, 0, 0);
+  color: #121113;
 }
 .services-img {
   width: 375px;
@@ -211,7 +214,7 @@ h2 {
 }
 
 .gallery {
-  color: black;
+  color: #121113;
 }
 .slider {
   width: 100vw;
@@ -291,10 +294,7 @@ h2 {
   scroll-snap-align: start;
 }
 
-
 .book-now2 {
-  height: 525px;
-  margin-top: 30px;
   background-image: url(./bike.jpg);
   background-size: cover;
   background-position: center;
@@ -304,11 +304,11 @@ h2 {
   width: 357px;
   height: 465px;
   border-radius: 20px;
-  background: rgb(0, 0, 0);
+  background: rgb(18, 17, 19);
   background: linear-gradient(
     0deg,
-    rgba(0, 0, 0, 0.35) 0%,
-    rgba(0, 0, 0, 0.88) 100%
+    rgba(18, 17, 19, 0.589) 0%,
+    rgba(18, 17, 19, 0.979) 100%
   );
 }
 #book-box2 h1 {
@@ -319,3 +319,40 @@ h2 {
 #book-box2 h2 {
   font-size: 30px;
   padding-bottom: 80px;
+}
+
+.testimonials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+figure {
+  display: block;
+  margin: 10px;
+}
+figure img {
+  width: 120px;
+}
+blockquote {
+  background-color: #121113f5;
+  width: 250px;
+  font-style: italic;
+}
+figcaption {
+  background-color: #121113f5;
+  width: 250px;
+  position: relative;
+  padding-top: 10px;
+  font-size: 18px;
+  color: aqua;
+  font-weight: bold;
+}
+footer {
+  width: 100vw;
+  height: 100px;
+  background-color: #121113;
+}
+.h2-header {
+  color: #121113;
+  padding: 5px 0 5px 0;
+}
