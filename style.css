@@ -7,11 +7,11 @@ html {
   color: #f7f7f2;
   font-family: "Work Sans", sans-serif;
   letter-spacing: 0.5px;
-  background-color: #f7f7f2;
+  background-color: #212530;
 }
 
 header {
-  height: 150px;
+  height: 160px;
   padding-top: 6px;
   background-color: rgba(0, 0, 0, 0.575);
   margin-bottom: 0px;
@@ -20,8 +20,8 @@ header {
   margin-left: auto;
   margin-right: auto;
 
-  width: 125px;
-  height: 125px;
+  width: 130px;
+  height: 130px;
 
   background: linear-gradient(
     0deg,
@@ -32,62 +32,20 @@ header {
   border-radius: 50%;
 }
 #circle-logo img {
-  width: 125px;
+  width: 130px;
 }
-
-/* MENU MENU MENU */
-nav {
-  position: relative;
-  bottom: -0px;
+nav ul {
 }
-/* Style the navigation menu */
-.topnav {
-  overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.288);
-  position: relative;
-  bottom: 0px;
+nav li {
+  display: inline-block;
+  margin: 2px;
 }
-
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-  display: none;
-  background-color: rgba(0, 0, 0, 0.849);
-  position: relative;
-  top: -2px;
-  padding: 5px;
-}
-
-/* Style navigation menu links */
-.topnav a {
-  color: white;
-  padding: 0px 0px 0px 0px;
+nav a {
+  color: #f7f7f2e5;
   text-decoration: none;
-  font-size: 20px;
-  display: block;
+  font-size: 14px;
+  font-weight: 600;
 }
-
-/* Style the hamburger menu */
-/* .topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-} */
-
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
-  background-color: rgba(0, 0, 0, 0);
-  color: rgb(255, 255, 255);
-}
-
-/* Style the active link (or home/logo) */
-.active {
-  background-color: rgba(255, 0, 0, 0);
-  color: white;
-}
-
-/* END OF MENU MENU */
 
 .book-now {
   height: 525px;
@@ -96,7 +54,7 @@ nav {
   align-items: center;
   justify-content: center;
 }
-#book-box {
+.book-box {
   max-width: 300px;
   height: 465px;
   border-radius: 20px;
@@ -108,22 +66,23 @@ nav {
     rgba(18, 17, 19, 0.63) 100%
   );
 }
-#book-box h1 {
+.book-box h1 {
   font-size: 40px;
 
-  padding: 40% 10px 20px 10px;
+  padding: 30% 10px 20px 10px;
 }
-#book-box P {
+.book-box p {
   font-size: 16px;
   font-weight: 300;
   color: #99eb9f83;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
 .fa-envelope,
 .fa-facebook-messenger {
-  color: #121113;
-  background-color: #99eb9e;
+  color: #ffffff;
+  background-color: #2a6e2f;
   border-radius: 40px;
   padding: 6px;
   margin-left: 8px;
@@ -134,8 +93,8 @@ nav {
   text-decoration: none;
 }
 .fa-whatsapp {
-  color: #121113;
-  background-color: #99eb9e;
+  color: #ffffff;
+  background-color: #2a6e2f;
   border-radius: 40px;
   padding: 5px;
   padding-left: 8px;
@@ -148,8 +107,8 @@ nav {
   text-decoration: none;
 }
 .mobile {
-  color: #121113;
-  background-color: #99eb9e;
+  color: #ffffff;
+  background-color: #2a6e2f;
   border-radius: 30px;
   display: block;
   margin: auto;
@@ -172,7 +131,7 @@ nav {
   background-repeat: no-repeat;
 }
 #about {
-  color: #121113;
+  color: #ffffff;
 }
 #about p {
   font-size: 16px;
@@ -192,7 +151,7 @@ h2 {
   height: 375px;
 }
 #services {
-  color: #121113;
+  color: #ffffff;
 }
 .services-img {
   width: 375px;
@@ -207,7 +166,7 @@ h2 {
   justify-content: center;
 }
 .services-img-header {
-  background-color: rgba(255, 255, 255, 0.473);
+  background-color: rgba(0, 0, 0, 0.514);
   width: 267px;
 }
 #services ul {
@@ -224,7 +183,7 @@ h2 {
 }
 
 .gallery {
-  color: #121113;
+  color: #ffffff;
 }
 .slider {
   width: 100vw;
@@ -305,12 +264,18 @@ h2 {
 }
 
 .book-now2 {
-  background-image: url(./pexels-lukas-296230.jpg);
+  /* background-image: url(./pexels-lukas-296230.jpg); */
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0)),
+    url(./pexels-brianna-martinez-3708717.jpg);
   background-size: cover;
   background-position: center;
-  overflow: auto;
 }
-#book-box2 {
+/* #book-box2 {
   margin: 10px auto 0 auto;
   width: 357px;
   height: 465px;
@@ -330,7 +295,7 @@ h2 {
 #book-box2 h2 {
   font-size: 30px;
   padding-bottom: 80px;
-}
+} */
 
 .testimonials {
   display: flex;
@@ -364,6 +329,6 @@ footer {
   background-color: #121113;
 }
 .h2-header {
-  color: #121113;
+  color: #ffffff;
   padding: 10px 0 5px 0;
 }
