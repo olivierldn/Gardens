@@ -4,7 +4,7 @@
 }
 html {
   text-align: center;
-  color: #f7f7f2;
+  color: #cccccc;
   font-family: "Work Sans", sans-serif;
   letter-spacing: 0.5px;
   background-color: #212530;
@@ -12,9 +12,9 @@ html {
 }
 
 header {
-  height: 160px;
+  height: 170px;
   padding-top: 6px;
-  background-color: rgba(0, 0, 0, 0.575);
+  background-color: rgba(0, 0, 0, 0.308);
   margin-bottom: 0px;
 }
 #circle-logo {
@@ -28,7 +28,7 @@ header {
     0deg,
     rgba(0, 0, 0, 0) 0%,
     rgba(0, 0, 0, 0.356) 20%,
-    rgb(0, 0, 0) 89%
+    rgba(0, 0, 0, 0.719) 89%
   );
   border-radius: 50%;
 }
@@ -36,15 +36,16 @@ header {
   width: 130px;
 }
 nav ul {
+  padding-top: 10px;
 }
 nav li {
   display: inline-block;
   margin: 2px;
 }
 nav a {
-  color: #f7f7f2e5;
+  color: #ffffffe5;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
 }
 #book-now-btn {
@@ -53,19 +54,21 @@ nav a {
   border-radius: 8px;
 }
 #covid-19 {
-  background-color: rgba(255, 0, 0, 0.205);
+  background-color: rgba(255, 255, 255, 0.315);
+  color: #222222bb;
   width: 100%;
 }
 .book-now {
-  height: 525px;
+  height: 500px;
   /* margin-top: 30px; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .book-box {
-  max-width: 300px;
+  width: 300px;
   height: 465px;
+
   border-radius: 20px;
   background: rgb(18, 17, 19);
   background: linear-gradient(
@@ -77,7 +80,7 @@ nav a {
 }
 .book-box h1 {
   font-size: 40px;
-
+  color: #fff;
   padding: 30% 10px 20px 10px;
 }
 .book-box p {
@@ -130,8 +133,8 @@ nav a {
   text-decoration: none;
 }
 #wrapper {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./pexels-brianna-martinez-3708717.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url(./pexels-sedrick-green-2384967.jpg);
   /* background-image: url(./pexels-karol-d-582486.jpg); */
   /* background-color: D6FFE9; */
 
@@ -140,7 +143,7 @@ nav a {
   background-repeat: no-repeat;
 }
 #about {
-  color: #ffffff;
+  color: #cccccc;
 }
 #about p {
   font-size: 16px;
@@ -148,20 +151,20 @@ nav a {
   margin-left: 30px;
   margin-bottom: 20px;
   text-align: left;
-  line-height: 130%;
+  line-height: 150%;
 }
 h2 {
   font-size: 32px;
 }
 .photo {
-  background-image: url(./bike1.jpg);
+  background-image: url(./bike.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 375px;
 }
 #services {
-  color: #ffffff;
+  color: #cccccc;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -208,6 +211,7 @@ h2 {
   display: flex;
   flex-direction: column;
   height: 300px;
+
   align-items: center;
   justify-content: space-around;
 }
@@ -223,7 +227,7 @@ h2 {
 }
 
 #gallery {
-  color: #ffffff;
+  color: #cccccc;
 }
 #gallery p {
   margin-bottom: 10px;
@@ -308,13 +312,13 @@ h2 {
 
 #book-now2 {
   /* background-image: url(./pexels-lukas-296230.jpg); */
-  height: 1200px;
+  height: 1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0)),
-    url(./pexels-brianna-martinez-3708717.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.678)),
+    url(./pexels-sedrick-green-2384967.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -372,6 +376,14 @@ footer {
   background-color: #121113;
 }
 .h2-header {
-  color: #ffffff;
+  color: #cccccc;
   padding: 10px 0 10px 0;
+}
+
+#book-box2 {
+  height: 240px;
+}
+#book-box2 p {
+  margin-top: 10px;
+  font-size: 24px;
 }
