@@ -66,7 +66,7 @@ nav a {
   justify-content: center;
 }
 .book-box {
-  width: 300px;
+  width: 90vw;
   height: 465px;
 
   border-radius: 20px;
@@ -81,7 +81,7 @@ nav a {
 .book-box h1 {
   font-size: 40px;
   color: #fff;
-  padding: 30% 10px 20px 10px;
+  padding-top: 100px;
 }
 .book-box p {
   font-size: 16px;
