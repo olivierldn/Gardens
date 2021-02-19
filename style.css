@@ -8,6 +8,7 @@ html {
   font-family: "Work Sans", sans-serif;
   letter-spacing: 0.5px;
   background-color: #212530;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -221,10 +222,10 @@ h2 {
   border-bottom: 2px dotted black;
 }
 
-.gallery {
+#gallery {
   color: #ffffff;
 }
-.gallery p {
+#gallery p {
   margin-bottom: 10px;
 }
 .slider {
@@ -305,7 +306,7 @@ h2 {
   scroll-snap-align: start;
 }
 
-.book-now2 {
+#book-now2 {
   /* background-image: url(./pexels-lukas-296230.jpg); */
   height: 1200px;
   display: flex;
