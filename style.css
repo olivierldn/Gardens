@@ -312,7 +312,7 @@ h2 {
 
 #book-now2 {
   /* background-image: url(./pexels-lukas-296230.jpg); */
-  height: 1000px;
+  height: 1100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -386,4 +386,11 @@ footer {
 #book-box2 p {
   margin-top: 10px;
   font-size: 24px;
+}
+
+#testimonials {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  max-width: 18ch;
 }
