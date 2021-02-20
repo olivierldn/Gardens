@@ -212,18 +212,21 @@ h2 {
   flex-direction: column;
   height: 300px;
 
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
 }
 #services ul li {
   font-size: 20px;
   margin: 10px;
-  list-style: none;
+  list-style: disc;
 }
 .services-list {
   width: 100%;
   height: 300px;
   border-bottom: 2px dotted black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #gallery {
@@ -348,6 +351,9 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.testimonials li {
+  list-style: none;
 }
 figure {
   display: block;
