@@ -412,4 +412,36 @@ footer {
   max-width: 18ch;
 }
 
-@media (min-width 768px);
+@media (min-width: 768px) {
+  #about article {
+    display: flex;
+    flex-direction: row;
+  }
+  .photo {
+    width: 50vw;
+  }
+  #about p {
+    width: 50vw;
+  }
+  .service-article {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  .services-img {
+    width: 50vw;
+    height: 375px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .services-list {
+    width: 50vw;
+    height: 375px;
+    border-bottom: 1px dotted black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+} ;
