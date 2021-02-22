@@ -392,6 +392,8 @@ footer {
 #book-box2 p {
   margin-top: 10px;
   font-size: 24px;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 #testimonials {
