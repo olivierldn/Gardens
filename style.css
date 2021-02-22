@@ -59,7 +59,9 @@ nav a {
   width: 100%;
 }
 .book-now {
+  margin: auto;
   height: 500px;
+  max-width: 450px;
   /* margin-top: 30px; */
   display: flex;
   align-items: center;
@@ -146,9 +148,13 @@ nav a {
   color: #cccccc;
 }
 #about p {
+  max-width: 450px;
   font-size: 16px;
-  margin-right: 30px;
-  margin-left: 30px;
+  /* margin-right: 30px;
+  margin-left: 30px; */
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: auto;
   margin-bottom: 20px;
   text-align: left;
   line-height: 150%;
@@ -388,6 +394,9 @@ footer {
 
 #book-box2 {
   height: 240px;
+  margin: auto;
+
+  max-width: 450px;
 }
 #book-box2 p {
   margin-top: 10px;
@@ -402,3 +411,5 @@ footer {
   font-size: 24px;
   max-width: 18ch;
 }
+
+@media (min-width 768px);
