@@ -439,9 +439,16 @@ footer {
   .services-list {
     width: 50vw;
     height: 375px;
-    border-bottom: 1px dotted black;
+    border-bottom: none;
     display: flex;
     align-items: center;
     justify-content: space-around;
+  }
+  #service-article2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  #wrapper {
+    height: 800px;
   }
 } ;
