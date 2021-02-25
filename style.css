@@ -6,11 +6,12 @@ html {
   text-align: center;
   color: #cccccc;
   font-family: "Work Sans", sans-serif;
-  letter-spacing: 0.5px;
+  letter-spacing: 150%;
   background-color: #212530;
   scroll-behavior: smooth;
 }
-
+body {
+}
 header {
   height: 170px;
   padding-top: 6px;
@@ -47,8 +48,6 @@ nav a {
   text-decoration: none;
   font-size: 15px;
   font-weight: 600;
-  text-shadow: 1px 1px 0 black, -1px -1px 0 black, -1px 1px 0 black,
-    1px -1px 0 black;
 }
 #book-now-btn {
   padding: 2px;
@@ -244,7 +243,7 @@ h2 {
   margin-bottom: 10px;
 }
 .slider {
-  width: 100vw;
+  width: 100%;
   height: 500px;
   display: flex;
   overflow-x: auto;
@@ -252,66 +251,57 @@ h2 {
   scroll-snap-type: x mandatory;
 }
 .slide {
-  width: 100vw;
+  width: 100%;
   flex-shrink: 0;
   height: 100%;
 }
 #slide-1 {
-  background-color: red;
-  background-image: url(./before-after1.jpg);
+  background-image: url(./after1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #slide-2 {
-  background-color: blue;
   background-image: url(./before1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #slide-3 {
-  background-color: yellow;
   background-image: url(./after1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #slide-4 {
-  background-color: black;
   background-image: url(./before1.jpg);
   background-size: cover;
+  background-position-x: center;
   background-repeat: no-repeat;
 }
 #slide-5 {
-  background-color: pink;
   background-image: url(./after1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #slide-6 {
-  background-color: red;
   background-image: url(./before1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #slide-7 {
-  background-color: blue;
   background-image: url(./after1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #slide-8 {
-  background-color: yellow;
   background-image: url(./before1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #slide-9 {
-  background-color: black;
   background-image: url(./after1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #slide-10 {
-  background-color: pink;
   background-image: url(./before1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
