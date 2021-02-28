@@ -40,11 +40,12 @@ nav ul {
   padding-top: 10px;
   display: flex;
   flex-direction: row;
-  gap: 1em;
+  gap: 1%;
   justify-content: center;
 }
 nav li {
   display: inline-block;
+  text-decoration: underline;
 }
 nav a {
   color: #ffffffe5;
