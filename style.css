@@ -481,7 +481,7 @@ footer {
     transition: 1s;
   }
   #gallery img:hover {
-    transform: scale(1.2);
+    transform: scale(1.8);
   }
   .testimonials ul {
     display: flex;
