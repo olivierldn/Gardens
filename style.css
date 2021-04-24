@@ -146,7 +146,7 @@ nav a {
 }
 #wrapper {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-    url(./pic/full/image00004.jpeg);
+    url(./image00004.jpeg);
   /* background-image: url(./pexels-karol-d-582486.jpg); */
   /* background-color: D6FFE9; */
 
@@ -181,7 +181,7 @@ h2 {
   font-size: 32px;
 }
 .photo {
-  background-image: url(./pic/full/image00002.jpeg);
+  background-image: url(.image00002.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -204,13 +204,13 @@ h2 {
   justify-content: center;
 }
 #img-1 {
-  background-image: url(./pic/image00013.jpeg);
+  background-image: url(./image00013.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 #img-2 {
-  background-image: url(./pic/full/image00013.jpeg);
+  background-image: url(./image00013.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
