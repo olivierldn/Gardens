@@ -15,7 +15,7 @@ body {
 header {
   height: 170px;
   padding-top: 6px;
-  background-color: rgba(0, 0, 0, 0.308);
+  background-color: rgba(0, 0, 0, 0.74);
   margin-bottom: 0px;
 }
 #circle-logo {
@@ -45,12 +45,12 @@ nav ul {
 }
 nav li {
   display: inline-block;
-  text-decoration: underline;
+  
 }
 nav a {
   color: #ffffffe5;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 600;
   margin-left: auto;
   margin-right: auto;
@@ -61,7 +61,7 @@ nav a {
   border-radius: 8px;
 }
 #covid-19 {
-  background-color: rgba(255, 255, 255, 0.315);
+  background-color: rgba(255, 255, 255, 0.952);
   color: #222222bb;
   width: 100%;
 }
@@ -75,6 +75,8 @@ nav a {
   justify-content: center;
 }
 .book-box {
+  margin-top: auto;
+  margin-bottom: auto;
   width: 90%;
   height: 465px;
 
@@ -83,8 +85,8 @@ nav a {
   background: linear-gradient(
     0deg,
     rgba(255, 255, 255, 0.116) 0%,
-    rgba(18, 17, 19, 0.5) 20%,
-    rgba(18, 17, 19, 0.63) 100%
+    rgba(18, 17, 19, 0.61) 20%,
+    rgba(18, 17, 19, 0.801) 100%
   );
 }
 .book-box h1 {
@@ -144,13 +146,14 @@ nav a {
 }
 #wrapper {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-    url(./pexels-sedrick-green-2384967.jpg);
+    url(./pic/full/image00004.jpeg);
   /* background-image: url(./pexels-karol-d-582486.jpg); */
   /* background-color: D6FFE9; */
 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed
 }
 .wrapper2 {
 }
@@ -172,12 +175,13 @@ nav a {
 
   text-align: left;
   line-height: 150%;
+  padding: 10px;
 }
 h2 {
   font-size: 32px;
 }
 .photo {
-  background-image: url(./bike.jpg);
+  background-image: url(./pic/full/image00002.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -200,13 +204,13 @@ h2 {
   justify-content: center;
 }
 #img-1 {
-  background-image: url(./img1.jpg);
+  background-image: url(./pic/image00013.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 #img-2 {
-  background-image: url(./img2.jpg);
+  background-image: url(./pic/full/image00013.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -273,54 +277,64 @@ h2 {
   height: 100%;
 }
 #slide-1 {
-  background-image: url(./after1.jpg);
-  background-size: cover;
+  background-image: url(./pic/full/image00011.jpeg);
+  background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
 }
 #slide-2 {
-  background-image: url(./before1.jpg);
-  background-size: cover;
+  background-image: url(./pic/full/image00012.jpeg);
+  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 #slide-3 {
-  background-image: url(./after1.jpg);
-  background-size: cover;
+  background-image: url(./pic/full/image00010.jpeg);
+  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 #slide-4 {
-  background-image: url(./before1.jpg);
-  background-size: cover;
+  background-image: url(./pic/full/image00005.jpeg);
+  background-position: center;
+  background-size: contain;
   background-position-x: center;
   background-repeat: no-repeat;
 }
 #slide-5 {
-  background-image: url(./after1.jpg);
-  background-size: cover;
+  background-image: url(./pic/full/image00006.jpeg);
+  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 #slide-6 {
-  background-image: url(./before1.jpg);
-  background-size: cover;
+  background-image: url(./pic/full/image00008.jpeg);
+  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 #slide-7 {
-  background-image: url(./after1.jpg);
-  background-size: cover;
+  background-image: url(./pic/full/image00004.jpeg);
+  background-position: center;
+  background-size:contain;
   background-repeat: no-repeat;
 }
 #slide-8 {
-  background-image: url(./before1.jpg);
-  background-size: cover;
+  background-image: url(./pic/full/image00001.jpeg);
+  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 #slide-9 {
-  background-image: url(./after1.jpg);
-  background-size: cover;
+  background-image: url(./pic/full/image00009.jpeg);
+  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 #slide-10 {
   background-image: url(./before1.jpg);
-  background-size: cover;
+  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .slide {
@@ -336,10 +350,11 @@ h2 {
   align-items: center;
   justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.678)),
-    url(./pexels-sedrick-green-2384967.jpg);
+    url(./pic/full/image00013.jpeg);
   background-size: cover;
   background-position: center;
 }
+
 /* #book-box2 {
   margin: 10px auto 0 auto;
   width: 357px;
@@ -422,6 +437,14 @@ footer {
 }
 
 @media (min-width: 768px) {
+  nav a {
+    color: #ffffffe5;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+  }
   #about article {
     display: flex;
     flex-direction: row;
