@@ -181,7 +181,7 @@ h2 {
   font-size: 32px;
 }
 .photo {
-  background-image: url(.image00002.jpeg);
+  background-image: url(./image00002.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
