@@ -277,56 +277,56 @@ h2 {
   height: 100%;
 }
 #slide-1 {
-  background-image: url(./pic/full/image00011.jpeg);
+  background-image: url(./image00011.jpeg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 #slide-2 {
-  background-image: url(./pic/full/image00012.jpeg);
+  background-image: url(./image00012.jpeg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 #slide-3 {
-  background-image: url(./pic/full/image00010.jpeg);
+  background-image: url(./image00010.jpeg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 #slide-4 {
-  background-image: url(./pic/full/image00005.jpeg);
+  background-image: url(./image00005.jpeg);
   background-position: center;
   background-size: contain;
   background-position-x: center;
   background-repeat: no-repeat;
 }
 #slide-5 {
-  background-image: url(./pic/full/image00006.jpeg);
+  background-image: url(./image00006.jpeg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 #slide-6 {
-  background-image: url(./pic/full/image00008.jpeg);
+  background-image: url(./image00008.jpeg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 #slide-7 {
-  background-image: url(./pic/full/image00004.jpeg);
+  background-image: url(./image00004.jpeg);
   background-position: center;
   background-size:contain;
   background-repeat: no-repeat;
 }
 #slide-8 {
-  background-image: url(./pic/full/image00001.jpeg);
+  background-image: url(./image00001.jpeg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 #slide-9 {
-  background-image: url(./pic/full/image00009.jpeg);
+  background-image: url(./image00009.jpeg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -350,7 +350,7 @@ h2 {
   align-items: center;
   justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.678)),
-    url(./pic/full/image00013.jpeg);
+    url(./image00013.jpeg);
   background-size: cover;
   background-position: center;
 }
